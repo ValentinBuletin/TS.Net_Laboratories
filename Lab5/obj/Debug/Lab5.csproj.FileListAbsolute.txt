@@ -1,0 +1,12 @@
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Lab4\Lab4\obj\Debug\Lab4.exe
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Lab4\Lab4\obj\Debug\Lab4.pdb
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Lab4\Lab4\bin\Debug\Lab4.exe.config
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Lab4\Lab4\bin\Debug\Lab4.exe
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Lab4\Lab4\bin\Debug\Lab4.pdb
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Lab4\Lab4\bin\Debug\EntityFramework.dll
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Lab4\Lab4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Lab4\Lab4\bin\Debug\EntityFramework.xml
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Lab4\Lab4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Lab4\Lab4\obj\Debug\Lab5.csproj.CopyComplete
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Lab4\Lab4\obj\Debug\Lab5.csprojAssemblyReference.cache
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Lab4\Lab4\obj\Debug\Lab5.csproj.CoreCompileInputs.cache

@@ -1,0 +1,12 @@
+C:\Users\Valentin\source\repos\ClassLibraryNetCore\bin\Debug\netcoreapp3.1\ClassLibraryNetCore.deps.json
+C:\Users\Valentin\source\repos\ClassLibraryNetCore\bin\Debug\netcoreapp3.1\ClassLibraryNetCore.dll
+C:\Users\Valentin\source\repos\ClassLibraryNetCore\obj\Debug\netcoreapp3.1\ClassLibraryNetCore.csprojAssemblyReference.cache
+C:\Users\Valentin\source\repos\ClassLibraryNetCore\obj\Debug\netcoreapp3.1\ClassLibraryNetCore.AssemblyInfoInputs.cache
+C:\Users\Valentin\source\repos\ClassLibraryNetCore\obj\Debug\netcoreapp3.1\ClassLibraryNetCore.AssemblyInfo.cs
+C:\Users\Valentin\source\repos\ClassLibraryNetCore\bin\Debug\netcoreapp3.1\ClassLibraryNetCore.runtimeconfig.json
+C:\Users\Valentin\source\repos\ClassLibraryNetCore\bin\Debug\netcoreapp3.1\ClassLibraryNetCore.runtimeconfig.dev.json
+C:\Users\Valentin\source\repos\ClassLibraryNetCore\bin\Debug\netcoreapp3.1\ClassLibraryNetCore.pdb
+C:\Users\Valentin\source\repos\ClassLibraryNetCore\obj\Debug\netcoreapp3.1\ClassLibraryNetCore.csproj.CoreCompileInputs.cache
+C:\Users\Valentin\source\repos\ClassLibraryNetCore\obj\Debug\netcoreapp3.1\ClassLibraryNetCore.dll
+C:\Users\Valentin\source\repos\ClassLibraryNetCore\obj\Debug\netcoreapp3.1\ClassLibraryNetCore.pdb
+C:\Users\Valentin\source\repos\ClassLibraryNetCore\obj\Debug\netcoreapp3.1\ClassLibraryNetCore.genruntimeconfig.cache
