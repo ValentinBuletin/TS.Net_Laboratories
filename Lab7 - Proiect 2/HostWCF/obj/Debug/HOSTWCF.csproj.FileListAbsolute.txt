@@ -1,0 +1,15 @@
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\obj\Debug\HostWCF.csproj.CoreCompileInputs.cache
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\bin\Debug\HOSTWCF.exe.config
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\bin\Debug\HOSTWCF.exe
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\bin\Debug\HOSTWCF.pdb
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\bin\Debug\ClassLibrary1.dll
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\bin\Debug\WCF.dll
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\bin\Debug\EntityFramework.dll
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\bin\Debug\ClassLibrary1.pdb
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\bin\Debug\ClassLibrary1.dll.config
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\bin\Debug\WCF.pdb
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\bin\Debug\EntityFramework.xml
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\obj\Debug\HostWCF.csproj.CopyComplete
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\obj\Debug\HOSTWCF.exe
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\Project\Project Oficial\HOSTWCF\obj\Debug\HOSTWCF.pdb
