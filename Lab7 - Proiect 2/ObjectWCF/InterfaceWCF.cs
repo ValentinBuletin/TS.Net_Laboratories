@@ -9,7 +9,7 @@ using ClassLibrary1;
 namespace ObjectWCF
 {
     [ServiceContract]
-    interface Interface1
+    interface INterface1
     {
         [OperationContract]
         void Add(string column);
@@ -18,7 +18,7 @@ namespace ObjectWCF
         [OperationContract]
         void Delete(string where, string whereValue);
         [OperationContract]
-        List<string> Check(string check);
+        List<string> Check(string check, bool silent);
         [OperationContract]
         void Modify(string set, string setValue, string where, string whereValue);
         [OperationContract]

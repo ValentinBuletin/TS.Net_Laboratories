@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HOSTWCF")]
+[assembly: AssemblyTitle("HostWCF")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HOSTWCF")]
+[assembly: AssemblyProduct("HostWCF")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2dc09abd-7666-4b4a-9535-6b96f259400c")]
+[assembly: Guid("08e3c52b-59cb-43dc-85a6-af52908d119e")]
 
 // Version information for an assembly consists of the following four values:
 //
