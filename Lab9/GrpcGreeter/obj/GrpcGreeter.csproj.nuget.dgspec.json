@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Valentin\\OneDrive\\Info 3.5\\.Net\\TS.Net_Laboratories\\Lab9\\GrpcGreeter\\GrpcGreeter.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Valentin\\OneDrive\\Info 3.5\\.Net\\TS.Net_Laboratories\\Lab9\\GrpcGreeter\\GrpcGreeter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Valentin\\OneDrive\\Info 3.5\\.Net\\TS.Net_Laboratories\\Lab9\\GrpcGreeter\\GrpcGreeter.csproj",
+        "projectName": "GrpcGreeter",
+        "projectPath": "C:\\Users\\Valentin\\OneDrive\\Info 3.5\\.Net\\TS.Net_Laboratories\\Lab9\\GrpcGreeter\\GrpcGreeter.csproj",
+        "packagesPath": "C:\\Users\\Valentin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Valentin\\OneDrive\\Info 3.5\\.Net\\TS.Net_Laboratories\\Lab9\\GrpcGreeter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Valentin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Valentin\\OneDrive\\Info 3.5\\.Net\\TS.Net_Laboratories\\Lab9\\PostComment\\PostComment.csproj": {
+                "projectPath": "C:\\Users\\Valentin\\OneDrive\\Info 3.5\\.Net\\TS.Net_Laboratories\\Lab9\\PostComment\\PostComment.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.24.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Valentin\\OneDrive\\Info 3.5\\.Net\\TS.Net_Laboratories\\Lab9\\PostComment\\PostComment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Valentin\\OneDrive\\Info 3.5\\.Net\\TS.Net_Laboratories\\Lab9\\PostComment\\PostComment.csproj",
+        "projectName": "PostComment",
+        "projectPath": "C:\\Users\\Valentin\\OneDrive\\Info 3.5\\.Net\\TS.Net_Laboratories\\Lab9\\PostComment\\PostComment.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
