@@ -11,4 +11,5 @@ Laboratoare:  1.Laborator 1
               9.Laborator 9 - Adaugat in data de 28.04.2020
               10.Laborator 10 - Adaugat in data de 05.05.2020
               11.Laborator 11 - Adaugat in data de 12.05.2020
+              12.Laborator 12 - Adaugat in data de 19.05.2020
 </pre>          
