@@ -51,5 +51,6 @@ namespace ObjectWCF
         {
             return post.UpdatePost(post);
         }
+
     }
 }

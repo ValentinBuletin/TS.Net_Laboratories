@@ -21,6 +21,7 @@ namespace PostComment
         {
             this.Comments = new HashSet<Comment>();
         }
+
         [DataMember]
         public int PostId { get; set; }
         [DataMember]
@@ -29,7 +30,7 @@ namespace PostComment
         public string Domain { get; set; }
         [DataMember]
         public string Date { get; set; }
-    
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         [DataMember]
         public virtual ICollection<Comment> Comments { get; set; }

@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 03/24/2020 11:41:44
--- Generated from EDMX file: C:\Users\Valentin\OneDrive\Info 3.5\.Net\TS.Net_Laboratories\PostComment\Model1.edmx
+-- Date Created: 03/24/2020 10:26:08
+-- Generated from EDMX file: D:\Fac\Tsp.Net\lab6\PostComment\Model1.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -17,20 +17,11 @@ GO
 -- Dropping existing FOREIGN KEY constraints
 -- --------------------------------------------------
 
-IF OBJECT_ID(N'[dbo].[FK_CommentPost]', 'F') IS NOT NULL
-    ALTER TABLE [dbo].[Comments] DROP CONSTRAINT [FK_CommentPost];
-GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
 -- --------------------------------------------------
 
-IF OBJECT_ID(N'[dbo].[Posts]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[Posts];
-GO
-IF OBJECT_ID(N'[dbo].[Comments]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[Comments];
-GO
 
 -- --------------------------------------------------
 -- Creating all tables
@@ -49,7 +40,7 @@ GO
 CREATE TABLE [dbo].[Comments] (
     [CommentId] int IDENTITY(1,1) NOT NULL,
     [Text] nvarchar(max)  NOT NULL,
-    [Post_PostId] int  NOT NULL
+    [PostPostId] int  NOT NULL
 );
 GO
 
@@ -73,19 +64,19 @@ GO
 -- Creating all FOREIGN KEY constraints
 -- --------------------------------------------------
 
--- Creating foreign key on [Post_PostId] in table 'Comments'
+-- Creating foreign key on [PostPostId] in table 'Comments'
 ALTER TABLE [dbo].[Comments]
-ADD CONSTRAINT [FK_CommentPost]
-    FOREIGN KEY ([Post_PostId])
+ADD CONSTRAINT [FK_PostComment]
+    FOREIGN KEY ([PostPostId])
     REFERENCES [dbo].[Posts]
         ([PostId])
     ON DELETE NO ACTION ON UPDATE NO ACTION;
 GO
 
--- Creating non-clustered index for FOREIGN KEY 'FK_CommentPost'
-CREATE INDEX [IX_FK_CommentPost]
+-- Creating non-clustered index for FOREIGN KEY 'FK_PostComment'
+CREATE INDEX [IX_FK_PostComment]
 ON [dbo].[Comments]
-    ([Post_PostId]);
+    ([PostPostId]);
 GO
 
 -- --------------------------------------------------

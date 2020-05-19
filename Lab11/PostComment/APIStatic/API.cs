@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace PostComment.APIStatic
 {
     public static class API
@@ -20,16 +23,14 @@ namespace PostComment.APIStatic
                 return bResult;
             }
         }
+
         public static Post UpdatePost(Post newPost)
         {
             using (Model1Container ctx = new Model1Container())
             {
-                // Ce e in bd. PK nu poate fi modificata
                 Post oldPost = ctx.Posts.Find(newPost.PostId);
-                if (oldPost == null) // nu exista in bd
-                {
-                    return null;
-                }
+                if (oldPost == null)
+                { return null; }
                 oldPost.Description = newPost.Description;
                 oldPost.Domain = newPost.Domain;
                 oldPost.Date = newPost.Date;
@@ -37,18 +38,15 @@ namespace PostComment.APIStatic
                 return oldPost;
             }
         }
+
         public static int DeletePost(int id)
         {
             using (Model1Container ctx = new Model1Container())
             {
-                return ctx.Database.ExecuteSqlCommand("Delete From Post where postid = @p0", id);
+                return ctx.Database.ExecuteSqlCommand("Delete From Post where postid =@p0", id);
             }
         }
-        /// <summary>
-        /// Returnez un Post si toate Comment-urile asociate lui
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+
         public static Post GetPostById(int id)
         {
             using (Model1Container ctx = new Model1Container())
@@ -59,10 +57,7 @@ namespace PostComment.APIStatic
                 return null;
             }
         }
-        /// <summary>
-        /// Returnez toate Post-urile si Comment-urile corespunzatoare
-        /// </summary>
-        /// <returns></returns>
+
         public static List<Post> GetAllPosts()
         {
             using (Model1Container ctx = new Model1Container())
@@ -70,7 +65,7 @@ namespace PostComment.APIStatic
                 return ctx.Posts.Include("Comments").ToList<Post>();
             }
         }
-        // Comment table
+
         public static bool AddComment(Comment comment)
         {
             using (Model1Container ctx = new Model1Container())
@@ -83,21 +78,19 @@ namespace PostComment.APIStatic
                     ctx.Entry<Comment>(comment).State = EntityState.Added;
                     Post p = ctx.Posts.Find(comment.PostPostId);
                     ctx.Entry<Post>(p).State = EntityState.Unchanged;
-                    ctx.SaveChanges();
-                    bResult = true;
+                    ctx.SaveChanges(); bResult = true;
                 }
                 return bResult;
             }
         }
+
         public static Comment UpdateComment(Comment newComment)
         {
             using (Model1Container ctx = new Model1Container())
             {
                 Comment oldComment = ctx.Comments.Find(newComment.CommentId);
-                if (newComment.Text != null)
-                    oldComment.Text = newComment.Text;
-                if ((oldComment.PostPostId != newComment.PostPostId)
-               && (newComment.PostPostId != 0))
+                if (newComment.Text != null) oldComment.Text = newComment.Text;
+                if ((oldComment.PostPostId != newComment.PostPostId) && (newComment.PostPostId != 0))
                 {
                     oldComment.PostPostId = newComment.PostPostId;
                 }
@@ -105,11 +98,14 @@ namespace PostComment.APIStatic
                 return oldComment;
             }
         }
+
         public static Comment GetCommentById(int id)
         {
             using (Model1Container ctx = new Model1Container())
             {
-                var items = from c in ctx.Comments where (c.CommentId == id) select c;
+                var items = from c in ctx.Comments
+                            where (c.CommentId == id)
+                            select c;
                 return items.Include(p => p.Post).SingleOrDefault();
             }
         }

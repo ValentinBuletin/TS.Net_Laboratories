@@ -21,3 +21,4 @@ C:\Users\Valentin\OneDrive\Info 3.5\.Net\TS.Net_Laboratories\Lab11\PostComment\o
 C:\Users\Valentin\OneDrive\Info 3.5\.Net\TS.Net_Laboratories\Lab11\PostComment\obj\Debug\PostComment.csproj.CopyComplete
 C:\Users\Valentin\OneDrive\Info 3.5\.Net\TS.Net_Laboratories\Lab11\PostComment\obj\Debug\PostComment.dll
 C:\Users\Valentin\OneDrive\Info 3.5\.Net\TS.Net_Laboratories\Lab11\PostComment\obj\Debug\PostComment.pdb
+C:\Users\Valentin\OneDrive\Info 3.5\.Net\TS.Net_Laboratories\Lab11\PostComment\obj\Debug\PostComment.csprojAssemblyReference.cache
